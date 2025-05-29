@@ -1,0 +1,28 @@
+#Algoritmo Operacoes Simples
+
+#Início
+
+    Escreva("Digite o número A:")
+    Leia a
+
+    Escreva("Digite o número B:")
+    Leia b
+
+    subtracao ← a - b
+    multiplicacao ← a * b
+
+    Se b ≠ 0 então
+        divisao ← a / b
+    Senão
+        Escreva("Erro: divisão por zero não permitida.")
+    FimSe
+
+    Escreva("Subtração: ", subtracao)
+    Escreva("Multiplicação: ", multiplicacao)
+    
+    Se b ≠ 0 então
+        Escreva("Divisão: ", divisao)
+    Se b = 0 então
+        Escreva("Divisão: ", inválida)
+    Fim
+Fim
