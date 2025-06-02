@@ -1,0 +1,126 @@
+# 1. Soma de dois números
+num1 = int(input("1. Digite o primeiro número inteiro: "))
+num2 = int(input("Digite o segundo número inteiro: "))
+soma = num1 + num2
+print("Soma:", soma)
+
+# 2. Média aritmética de três números
+n1 = float(input("\n2. Digite o primeiro número real: "))
+n2 = float(input("Digite o segundo número real: "))
+n3 = float(input("Digite o terceiro número real: "))
+media = (n1 + n2 + n3) / 3
+print("Média aritmética:", media)
+
+# 3. Área de um retângulo
+base_ret = float(input("\n3. Base do retângulo: "))
+altura_ret = float(input("Altura do retângulo: "))
+area_ret = base_ret * altura_ret
+print("Área do retângulo:", area_ret)
+
+# 4. Área de um triângulo
+base_tri = float(input("\n4. Base do triângulo: "))
+altura_tri = float(input("Altura do triângulo: "))
+area_tri = (base_tri * altura_tri) / 2
+print("Área do triângulo:", area_tri)
+
+# 5. Conversão de temperatura
+celsius = float(input("\n5. Temperatura em Celsius: "))
+fahrenheit = (9 * celsius + 160) / 5
+print("Temperatura em Fahrenheit:", fahrenheit)
+
+# 6. Média ponderada
+nota1 = float(input("\n6. Nota 1: "))
+peso1 = float(input("Peso 1: "))
+nota2 = float(input("Nota 2: "))
+peso2 = float(input("Peso 2: "))
+nota3 = float(input("Nota 3: "))
+peso3 = float(input("Peso 3: "))
+media_pond = (nota1 * peso1 + nota2 * peso2 + nota3 * peso3) / (peso1 + peso2 + peso3)
+print("Média ponderada:", media_pond)
+
+# 7. Volume da caixa
+comprimento = float(input("\n7. Comprimento: "))
+largura = float(input("Largura: "))
+altura = float(input("Altura: "))
+volume = comprimento * largura * altura
+print("Volume da caixa:", volume)
+
+# 8. Valor total da compra
+p1 = float(input("\n8. Preço do produto 1: "))
+p2 = float(input("Preço do produto 2: "))
+p3 = float(input("Preço do produto 3: "))
+total_compra = p1 + p2 + p3
+print("Valor total da compra:", total_compra)
+
+# 9. Tempo total de viagem
+tempo_horas = float(input("\n9. Tempo da viagem (horas): "))
+velocidade = float(input("Velocidade média (km/h): "))
+distancia = tempo_horas * velocidade
+tempo_min = tempo_horas * 60
+print("Distância:", distancia, "km")
+print("Tempo total em minutos:", tempo_min)
+
+# 10. Dias em horas
+dias = int(input("\n10. Número de dias: "))
+horas = dias * 24
+print("Equivalente em horas:", horas)
+
+# 11. Minutos em segundos
+minutos = int(input("\n11. Quantidade de minutos: "))
+segundos = minutos * 60
+print("Equivalente em segundos:", segundos)
+
+# 12. Novo salário
+salario = float(input("\n12. Salário atual: "))
+aumento = float(input("Aumento: "))
+novo_salario = salario + aumento
+print("Novo salário:", novo_salario)
+
+# 13. Juros simples
+capital = float(input("\n13. Capital: "))
+taxa = float(input("Taxa mensal (decimal): "))
+tempo = int(input("Tempo (meses): "))
+montante = capital + (capital * taxa * tempo)
+print("Montante com juros simples:", montante)
+
+# 14. Troco
+valor_compra = float(input("\n14. Valor da compra: "))
+valor_pago = float(input("Valor pago: "))
+troco = valor_pago - valor_compra
+print("Troco:", troco)
+
+# 15. IMC
+peso = float(input("\n15. Peso (kg): "))
+altura = float(input("Altura (m): "))
+imc = peso / (altura ** 2)
+print("IMC:", imc)
+
+# 16. Perímetro do círculo
+raio = float(input("\n16. Raio do círculo: "))
+perimetro = 2 * 3.14 * raio
+print("Perímetro:", perimetro)
+
+# 17. Diferença de idades
+idade1 = int(input("\n17. Primeira idade: "))
+idade2 = int(input("Segunda idade: "))
+dif_idades = abs(idade1 - idade2)
+print("Diferença de idades:", dif_idades)
+
+# 18. Consumo de combustível
+km = float(input("\n18. Distância percorrida (km): "))
+litros = float(input("Combustível gasto (litros): "))
+consumo = km / litros
+print("Consumo médio (km/l):", consumo)
+
+# 19. Conta dividida
+valor_total = float(input("\n19. Valor total da conta: "))
+pessoas = int(input("Número de pessoas: "))
+por_pessoa = valor_total / pessoas
+print("Valor por pessoa:", por_pessoa)
+
+# 20. Desconto
+preco = float(input("\n20. Preço do produto: "))
+desconto_pct = float(input("Desconto (%): "))
+valor_desc = preco * (desconto_pct / 100)
+preco_final = preco - valor_desc
+print("Preço com desconto:", preco_final)
